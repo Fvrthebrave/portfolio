@@ -1,3 +1,84 @@
-.center-content {
+html {
+    height: 100%;
+}
+
+body {
+    padding: 6%;
+    background: url(https://aestheticio.com/wp-content/uploads/2015/05/bp_background_2_blue1.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+a {
+    color: white !important;
+    font-size: 20px;
+}
+
+i {
+    color: white;
+}
+
+p {
     text-align: center;
+    color: white;
+    line-height: 200%;
+}
+
+img {
+    margin: 3% 3%;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    height: 100%;
+    width: 100%;
+}
+
+#massive-header {
+    font-size: 80px;
+    margin-bottom: 10%;
+    color: white;
+}
+
+#break {
+    width: 60%;
+}
+
+#menu {
+    color: white !important;
+}
+
+#main-div {
+    width: 80% !important;
+}
+
+@media screen and (min-width: 800px) {
+    #main-div {
+        width: 65% !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        width: 90%;
+    }
+    
+    #main-header {
+        font-size: 18px;
+    }
+    
+    img {
+        display: none;
+    }
+    
+    #massive-header {
+        font-size: 32px;
+    }
+    
+    #headshot {
+        display: none;
+    }
+    
+    #main-div {
+        width: 95% !important;
+    }
+
 }
