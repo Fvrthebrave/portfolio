@@ -6,6 +6,7 @@ body {
     padding: 6%;
     background: url(https://aestheticio.com/wp-content/uploads/2015/05/bp_background_2_blue1.jpg) no-repeat center fixed;
     background-size: cover;
+    color: white !important;
 }
 
 a {
@@ -13,22 +14,20 @@ a {
     font-size: 20px;
 }
 
-i {
-    color: white;
+img {
+    display: inline-block;
+    margin: 1em;
 }
 
 p {
     text-align: center;
-    color: white;
     line-height: 200%;
+    font-size: 16px;
+    color: white !important;
 }
 
-img {
-    margin: 3% 3%;
-    border-radius: 50%;
-    border: 1px solid lightgrey;
-    height: 100%;
-    width: 100%;
+.link-label {
+    display: block;
 }
 
 #massive-header {
@@ -63,10 +62,6 @@ img {
     
     #main-header {
         font-size: 18px;
-    }
-    
-    img {
-        display: none;
     }
     
     #massive-header {
