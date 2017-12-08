@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Fvrthebrave/portfolio/issues"
   },
-  "homepage": "https://github.com/Fvrthebrave/portfolio#readme"
+  "homepage": "https://github.com/Fvrthebrave/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
